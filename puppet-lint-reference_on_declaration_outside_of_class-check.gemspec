@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
     Extends puppet-lint to ensure that a reference is made only on a declaration within the same class
   EOF
 
-  spec.add_dependency             'puppet-lint', '~> 2.0'
+  spec.add_dependency             'puppet-lint', '>= 1.0', '< 3.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rspec-its', '~> 1.0'
   spec.add_development_dependency 'rspec-collection_matchers', '~> 1.0'
