@@ -12,10 +12,10 @@ matrix:
 deploy:
   provider: rubygems
   api_key:
-    secure: "B6WGj+yhd+86ZlmTgFFX1ZlrjdM54aTqsgL82OPB42MG7wO/2vArLtLm9t4zkvkprYxV9v8hJvupKvmlGAZAKu70wB5uFEPmPpwIdH4TdAbPWcROGmu2ej0iEFbONUwG/wqcUC9HfEVuy1XNxCurFJGrBWjN0MhtWzbqjSRdHNY="
+    secure: "U29XFHTXUoae6tWRgCPi5Yef2JyY2EsQXv9GEPEdHXhST/DvtGmdAG/czCMZH+EgSlUbKQE/bxheCIXNhCBrOaUludx8DvjfMlbX0h3GO68elMIKiz5daWlf8x0BYfAJr2+zdXkTHZD+txtfX8IGrt6cRYNlsl8JOLGv6cZ9Dh1C3bE6I6azS9gHcJxlOsNcZO864/vHX8HWk0KSaYKguj+0idmi0+AwIB/VdsZiBH7AT7Kxf83uEiOmRpoVkpW1sn8W7fuXhHa+J/cgeDx+mLH3okCGtXIVtEbSnZWh7WY+yfoSvoOhi1I9oRVuyAb2GMp9moAYKUWNwwbEuaEAwD3mBVMgUGN99EufPy7961A/vTYDV3jX1JJqeSBEDdiDfUHyoFyyY2/5V6fNmSy4dVO2nSeqCcOTXW0JAjqE1u+EBHYAcdB6XZzcdcOsTytCYFoTk4wxZkHnQEdV0k5sfFI1bqYTYYTluar1qGIZrbiUqHo85gvRjFHXz1lGXGH4zx7ckVOLhsF89bYTuDXdFHrqfBLZB0ITvf6mJeSjlLQlwXQtiLqwcXEqOvOAMhrjxwjD+GjfbWTm8WfF/7mANiTa7g0gPtS8wt6EmhvA6wX9WpLunCZ+Zfpftyyahb90A6qs3XrfgyF35/qLI/1bdV2NL12cfXECrr3q/R31I60="
   on:
     rvm: 2.1.5
     tags: true
     all_branches: true
-notifications:
+notifications: 
 email: false
