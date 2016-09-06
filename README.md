@@ -4,11 +4,12 @@
 
 ## Installation
 
-To use this plugin, add the following like to the Gemfile in your Puppet code
+To use this plugin, add the following line to the `Gemfile` in your Puppet code
 base and run `bundle install`.
 
 ```ruby
 gem 'puppet-lint-reference_on_declaration_outside_of_class-check'
+gem 'pry'
 ```
 
 ## Usage
