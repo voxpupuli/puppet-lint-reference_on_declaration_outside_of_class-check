@@ -1,4 +1,3 @@
-require 'pry'
 PuppetLint.new_check(:reference_on_foreign_class) do
   def check
     has_declaration = 0
