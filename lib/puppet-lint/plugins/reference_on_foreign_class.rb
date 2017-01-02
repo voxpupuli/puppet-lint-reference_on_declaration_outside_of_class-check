@@ -2,7 +2,7 @@ PuppetLint.new_check(:reference_on_foreign_class) do
   def check
     has_declaration = 0
     tokens.select { |check_token|
-      [:CLASSREF].include? check_token.type
+      [:CLASSREF, :TYPE].include? check_token.type
     }.each do |check_token|
       check_classref = check_token.value.to_s.downcase
       check_title = check_token.next_token.next_token.value.to_s
